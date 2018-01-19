@@ -1,0 +1,114 @@
+body {
+	margin: 0;
+	background: #fff;
+}
+
+.container {
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1%; 
+}
+
+.bold {
+    font-weight: 800;
+}
+
+header {
+  background: #fff;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li a {
+    color:rgba(10, 177, 66, 0.692);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.55em;
+}   
+
+nav ul li:hover a {
+    color: white;
+    background-color: rgba(10, 177, 66, 0.692);
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+  
+    position: relative;
+  }
+span {
+    display: block;
+}
+
+.headshot {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    float: left;
+    width: 160px;
+    height: 180px;
+    font-family: "Apercu", Helvetica, Arial, sans-serif;    
+    font-size: .6em;
+    text-align: center;
+}
+section {
+    margin: 3%;
+    float: left;
+    font-family: "Apercu", Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+#pictures {
+    float: right;
+    margin-top: 2%;
+    width: 55%;
+}
+
+h1 {
+    font-family: "Apercu", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+}
+
+h2 {
+    font-family: "Apercu", Helvetica, Arial, sans-serif;
+    font-size: .3em;
+}
+div.hidden {
+    display: none;
+}
+div.hiddentitle {
+    display: none;
+}
+#page {
+    display: none;
+}
+#loading {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("loadinggif.gif");
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+

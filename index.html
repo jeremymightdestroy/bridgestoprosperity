@@ -1,0 +1,67 @@
+<!-- 
+    heeellooo welcome to my source code
+
+    this is my first time making a website from 'scratch'
+
+    it took a very long time to make this website.
+
+    
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>
+        Bridges to Prosperity - University of Toronto - Home Page
+    </title>
+
+    <link rel="stylesheet" href="index.css">
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="loadingscreen.js"></script>
+
+</head>
+
+<body>
+
+                <header>
+                        <div class="container">
+                            <nav>
+                                <ul>
+                                    <li><a href="index.html">BRIDGES TO PROSPERITY</a></li>
+                                    <li><a href="about.html">WHO WE ARE</a></li>
+                                    <li><a href="projects.html">PROJECTS</a></li>
+                                    <li><a href="events.html">ON-CAMPUS EVENTS</a></li>
+                                    <li><a href="sponsors.html">SPONSORSHIPS</a></li>
+                                    <li><a class="bold" href="donate.html">DONATE</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </header>
+ 
+    <div id="page">                    
+        <div class="hidden">
+            <div id="logo"><a href="index.html"><img class="home" alt="B2P" src="logo.png"></a></div>
+        </div>
+
+        <script>$(document).ready(function () { $('div.hidden').fadeIn(5000).removeClass('hidden'); });</script>
+
+        <footer>
+            <form>
+                <p>monthly news: (welcome to the team!)
+                    <input type="text" name="email" value="enter your email">
+                </p>
+            </form>
+            <a href="donate.html">Privacy Policy</a> |
+            <a href="contact.html">Contact</a> (work in progress) @jeremylee
+        </footer>
+
+    </div>
+    <div id="loading"></div>
+
+</body>
+
+</html>
