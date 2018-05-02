@@ -1,7 +1,7 @@
 # bridgestoprosperity
-Hey thanks for visiting me. 
+Hello! Thanks for visiting my first github repo.
 
-This is my first HTML, CSS, JS, jQuery, and (eventually) SQL project. All of these languages were self-taught, so my mode of coding is most likely not very conventional. 
+This is me learning HTML, CSS, JS, jQuery, etc.
+This is for the UofT club Bridges to Prosperity's website.
 
-Definitely still a work in progress!
-
+Somewhat uncompleted but the intent was to learn so no biggie.
